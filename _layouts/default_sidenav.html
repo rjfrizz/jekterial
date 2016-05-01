@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body >
+
+    {% include header_sidenav.html %}
+
+    <div class="page-content container sidenav-main">
+      <div class="row">
+        <div class="col s12">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include footer_sidenav.html %}
+
+  </body>
+
+</html>
