@@ -10,7 +10,7 @@ title: Jekterial
 email: rjfrizz@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A Jekyll theme based on materialze.css.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/jekterial" # the subpath of your site, e.g. /blog
 url: "http://rjfrizz.github.io/" # the base hostname & protocol for your site
 github_username:  rjfrizz
 permalink: /:title

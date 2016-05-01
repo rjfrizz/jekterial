@@ -6,10 +6,6 @@ sidebar: true
 sidenav: false
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This is Jekterial, a Jekyll theme built on the [Materialize framework](http://materializecss.com/). This theme has some features built in, but feel free to check out the [Materialize framework documentation](http://materializecss.com/) to find out about all of the awesome features it provides.
 
-You can find the source code for the Jekyll new theme at:/
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at/
-[jekyll](https://github.com/jekyll/jekyll)
+Jekterial is an open-source project by [rjfrizz](http://ryanfrizzell.com/). You can make contributions via github.
