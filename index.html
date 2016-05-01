@@ -4,20 +4,24 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
+  <div class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <div class="card">
+        <div class="card-content">
+          <h2 class="thin">
+            <a class="post__title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <div class="post__meta">
+            <b class="post__author">{{ post.author }}</b>
+            <b class="post__sep">&#x25cf;</b>
+            <b class="post__date">{{ post.date | date: "%b %-d, %Y" }}</b>
+          </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+          {{ post.excerpt }}
+
+          <a class="waves-effect waves-light btn" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+        </div> <!-- end card content-->
+      </div> <!-- end card -->
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  </div>
 </div>
