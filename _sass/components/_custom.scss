@@ -1,0 +1,9 @@
+// Custom scss can be added here. This file is loaded last.
+
+.sidebar {
+  margin-top: 42px;
+
+  &.pinned {
+    margin-top: 0;
+  }
+}
